@@ -4,6 +4,10 @@ let object1 = {
   firstName: "Prathamesh",
   lastName: "Gaikwad",
   loginCount: 32,
+  linkedAccounts: {
+    Google: true,
+    Facebook: false,
+  },
   isLogedInFromGoogle: true,
 };
 
