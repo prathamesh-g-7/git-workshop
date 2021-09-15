@@ -11,8 +11,13 @@ let object1 = {
   isLogedInFromGoogle: true,
 };
 
+let object2 = {
+  position: "Trainee",
+  onProbation: true,
+};
+
 console.log(object1.firstName);
 console.log(object1);
 
 object1.loginCount = 50;
-console.table(object1);
+console.table(object2);
